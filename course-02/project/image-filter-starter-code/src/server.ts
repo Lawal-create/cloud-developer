@@ -33,7 +33,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
   
   // Root Endpoint
   // Displays a simple message to the user
-  app.get( "/", async ( req: Request, res: Response ) => {
+  app.get( "/", async ( req, res ) => {
     res.send("Welcome to Laweezy image filter. Use /filteredimage to filter your image")
   } );
   
