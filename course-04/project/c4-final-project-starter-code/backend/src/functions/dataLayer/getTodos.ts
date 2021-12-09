@@ -1,5 +1,5 @@
-import { TodoItem } from '../models/TodoItem'
-import todosAccess from '../helpers/todosAcess';
+import { TodoItem } from '../../models/TodoItem'
+import todosAccess from '../../helpers/todosAcess';
 
 
 const getTodos = async(userId:string)=> {

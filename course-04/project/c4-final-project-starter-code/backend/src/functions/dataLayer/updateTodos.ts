@@ -1,4 +1,4 @@
-import todosAccess from "../helpers/todosAcess"
+import todosAccess from "../../helpers/todosAcess"
 
 const updateTodos = async(todoId:string, userId:string, name: string, dueDate: string, done: boolean)=> {
       

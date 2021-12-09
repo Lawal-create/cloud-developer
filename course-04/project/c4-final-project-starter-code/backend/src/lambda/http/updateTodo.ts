@@ -6,7 +6,7 @@ import { cors, httpErrorHandler } from 'middy/middlewares'
 
 import { UpdateTodoRequest } from '../../requests/UpdateTodoRequest'
 import { getUserId } from '../utils'
-import updateTodos from '../../functions/updateTodos'
+import updateTodos from '../../functions/dataLayer/updateTodos'
 import { createLogger } from '../../utils/logger'
 
 
