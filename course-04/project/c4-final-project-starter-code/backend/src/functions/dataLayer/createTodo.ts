@@ -1,6 +1,6 @@
-import { CreateTodoRequest } from "../requests/CreateTodoRequest"
+import { CreateTodoRequest } from "../../requests/CreateTodoRequest"
 import * as uuid from 'uuid'
-import todoAccess from '../helpers/todosAcess'
+import todoAccess from '../../helpers/todosAcess'
 
 const createTodo = async (todo: CreateTodoRequest, userId: string)=>{
 

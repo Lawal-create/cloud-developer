@@ -5,7 +5,7 @@ import * as middy from 'middy'
 import { cors } from 'middy/middlewares'
 
 import { getUserId } from '../utils';
-import getTodos from '../../functions/getTodos'
+import getTodos from '../../functions/dataLayer/getTodos'
 import { createLogger } from '../../utils/logger'
 
 
